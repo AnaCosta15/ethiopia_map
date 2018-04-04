@@ -1,0 +1,100 @@
+body{
+  background-color: #808000;
+ 
+    
+}
+
+    h1 {
+      color: purple;
+      text-align:center;
+      font-family:cursive;
+      font-size:10px;
+}
+
+    h2{
+      color: black;
+      text-align:center;
+      font-family:cursive;
+      font-size:10px;
+}
+
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#legend {
+  background: white;
+  padding: 15px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2000;
+}
+
+.legend-header {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.legend-marker {
+  display: inline-block;
+  background: red;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.legend-marker2 {
+  display: inline-block;
+  background: #826DBA;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.legend-marker3 {
+  display: inline-block;
+  background: #535655;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.legend-marker4 {
+  display: inline-block;
+  background: #4deeb3;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+.legend-marker5 {
+  display: inline-block;
+  background: pink;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+#checkboxes {
+  background: white;
+  padding: 15px;
+  position: fixed;
+  top: 170px;
+  right: 15px;
+  z-index: 2000;
+}
+
+.checkbox-header {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.checkboxes {
+  position: absolute;
+  right: 0px;
+  left:10px;
+  top: 100px;
+  z-index: 20000;
+}
